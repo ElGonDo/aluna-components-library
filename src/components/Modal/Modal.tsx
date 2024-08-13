@@ -96,14 +96,14 @@ export const Modal: FC<ModalProps> = ({
                     svg: CandidateIcon,
                   },
                   {
-                    label: "Empleado",
-                    href: "/portal/empleado",
-                    svg: EmployeeIcon,
-                  },
-                  {
                     label: "Compañía",
                     href: "/portal/compania",
                     svg: CompanyIcon,
+                  },
+                  {
+                    label: "Empleado",
+                    href: "/portal/empleado",
+                    svg: EmployeeIcon,
                   },
                 ]}
                 onButtonClick={onButtonClick}
